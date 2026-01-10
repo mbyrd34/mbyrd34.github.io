@@ -1,0 +1,108 @@
+.about {
+    text-align: center; font-family: "Comic Relief", system-ui;
+font-weight: 400; font-size: x-large;
+}
+
+body {
+  background-image: url(backdrop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  overflow:visible;
+  display: flex;
+  justify-content: center;
+}
+
+nav a{
+width: 150px;
+display: inline-block;
+padding-top: 40px;
+padding-bottom: 20px;
+text-decoration: none;
+font-size: 22px;
+font-family: "Comic Relief", system-ui;
+font-weight: 400;
+color:antiquewhite;
+text-align: center;
+justify-content: center;
+}
+
+
+.border:hover{
+border-bottom: solid rgb(86, 152, 103) 5px;
+transition: ease-in 0.4s;
+text-transform: uppercase;
+}
+
+
+
+
+ul {
+  padding: 0;
+  margin: 0 0 0 0px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+li {
+  float:left;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  color:beige;
+}
+
+.about {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 300px;
+  color: white
+}
+
+h1 {
+font-family: "Comic Relief", system-ui;
+font-weight: 400;
+font-size: x-large;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white
+}
+
+.family_pic {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 500px;
+    border: 10px;
+    border-style: solid;
+    border-color: antiquewhite;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.family_pic:hover{
+  transform:rotateX(360deg);
+  transition: 2s;
+}
+
+figcaption {
+font-family: "Comic Relief", system-ui;
+font-weight: 400;
+font-size: medium;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white
+}
