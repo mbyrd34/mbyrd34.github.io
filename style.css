@@ -4,7 +4,7 @@
       background-image: url(background.png);
       width: 100%;
       background-size: cover;
-      height: 150vh;
+      height: 230vh;
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -335,4 +335,5 @@ animation-timing-function: linear;
     transform: skewX(0deg) scale(1);
   }
 }
+
 
